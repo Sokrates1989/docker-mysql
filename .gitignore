@@ -1,5 +1,8 @@
 # Ignore the Environment (.env) file, that contains passwords and connection details.
 .env
 
+# Ignore docker-compose.yml / use template instead.
+docker-compose.yml
+
 # Ignore the database itself.
 mysql_db

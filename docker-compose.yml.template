@@ -10,8 +10,8 @@ networks:
          gateway: 10.5.0.1
 
 services:
-  mysql_db:
-    container_name: mysql_db
+  XXX_RENAME_DATABASE_SERVICE_NAME_XXX:
+    container_name: XXX_RENAME_DATABASE_SERVICE_NAME_XXX
     image: mysql
     restart: always
     environment:
@@ -32,4 +32,4 @@ services:
       - ${PORT}
     # Where our data will be persisted
     volumes:
-      - ./mysql_db:/var/lib/mysql
+      - ./XXX_RENAME_DATABASE_SERVICE_NAME_XXX:/var/lib/mysql
